@@ -1,0 +1,151 @@
+body{margin: 0;}
+/*For Navbar*/
+.navbar{
+    width: 100%;
+    background-color: #f3e0d3;
+    overflow:auto;
+    position: fixed;
+    top: 0;
+    padding-left: 2%;
+    height: auto;
+}
+.navbar h2{
+    padding-left: 5%;
+    font-family: Georgia, serif;
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding-right: 2%;
+    overflow: hidden;
+    width: 100%;
+    background-color: #f3e0d3;
+}
+.navbar li{
+    padding-left: 1%;
+    float: left;
+    border-top: 1px solid #2C3531;
+    border-bottom: 1px solid #2C3531;
+}
+.res{
+    border: 1px solid #2C3531;
+}
+.navbar li a:last-child{
+    border-right: none;
+}
+.navbar li a{
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+.navbar li a:hover{
+    background-color: beige;
+}
+
+/*Main div i.e. everything under navbar except footer*/
+.main{
+    background-color: #F5F5DC;
+    /*margin-top: 112px;*/
+    height: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.main h2{
+    font-family: Georgia, serif;
+}
+/*all the div tags in main class*/
+/*.card{
+    background-color: yellow;
+    padding: 5%;
+}*/
+#home{
+    padding-left: 5%;
+    padding-top: 8%;
+    padding-right: 5%;
+}
+#home img{
+    border-radius: 50%;
+    height: auto;
+    width: 100%;
+}
+#experience{
+    padding-left: 5%;
+    padding-top: 8%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+}
+#projects{
+    padding-left: 5%;
+    padding-top: 8%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+}
+#projects h4{
+    font-family: Georgia, serif;
+}
+#skills, #events{
+    padding-left: 5%;
+    padding-top: 6%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+}
+/*all the tags are covered in this*/
+*{
+    box-sizing: border-box;
+}
+/*styling the break line between each division line*/
+hr{
+    border: 1px solid #2C3531;
+}
+/*This is for the biography section*/
+.row::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+.column{
+    float: left;
+    padding: 5%;
+}
+.left{width: 30%;/* background-color: blueviolet;*/}
+.right{width: 70%;/* background-color: chartreuse;*/}
+.subrow::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.subcol{
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+.l{
+    width: 40%;
+    /*background-color: pink;*/
+}
+.l ul{
+    list-style-type: square;
+}
+.r{
+    width: 60%;
+    /*background-color: peru;*/
+}
+.r ul{
+    list-style-image: url('hat.png');
+    
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    background-color: #f3e0d3;
+    padding: 10px;
+}
+.footer img{
+    height: 30px;
+    padding-left: 15px;
+
+    width: auto;
+}
